@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="All rights reserved"
+
+[[mods]]
+modId="mensajesvida"
+version="${file.jarVersion}"
+displayName="Mensajes de Vida y Muerte"
+description='''
+Avisa en el chat cuando un jugador usa un totem de la inmortalidad (amarillo, negrita)
+y cuando un jugador muere (rojo, negrita).
+'''
+
+[[dependencies.mensajesvida]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.mensajesvida]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.21)"
+ordering="NONE"
+side="BOTH"
